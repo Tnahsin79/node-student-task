@@ -8,7 +8,7 @@ require('dotenv').config();
 const url = "mongodb+srv://Tnahsin79:tnahsin79@guvi-zen.iisub.mongodb.net?retryWrites=true&w=majority";
 app.use(bodyParser.json());
 app.use(cors({
-  origin: "http://localhost:3000"
+  origin: "https://trusting-easley-94aada.netlify.app"
 }));
 //origin:"https://trusting-easley-94aada.netlify.app"
 //origin:"http://localhost:3001"
